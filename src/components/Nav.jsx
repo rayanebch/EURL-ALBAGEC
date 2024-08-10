@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <header className="py-2 fixed z-10 w-full border-2 shadow-lg bg-white">
       <nav className="flex  justify-between max-lg:justify-center items-center max-container">
-        <a href="/">
+        <a href="#accueil">
           <img
             src={LogoAlbagec}
             alt="logo"

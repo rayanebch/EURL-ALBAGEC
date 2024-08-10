@@ -1,7 +1,7 @@
 export const navLinks = [
-    { href: "#Accueil", label: "Accueil" },
+    { href: "#accueil", label: "Accueil" },
     { href: "#Apropos", label: "Apropos" },
-    { href: "#Contact", label: "contact" },
+    { href: "#contact", label: "contact" },
 ];
 export const specialite = [
     { href: "#conception", content: "Nous croyons que la construction peut être respectueuse de l'environnement sans compromettre la qualité. C'est pourquoi nous cherchons toujours des moyens d'intégrer des pratiques de construction durables dans nos projets. Découvrez nos réalisations passées pour avoir un aperçu de la qualité de notre travail. Si vous recherchez un partenaire de confiance pour votre projet de construction, nous sommes là pour vous aider à le concrétiser, du concept à la réalité. Faites-nous part de vos idées, et nous les transformerons en une construction solide et durable" },

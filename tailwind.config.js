@@ -7,7 +7,8 @@ export default {
         poppins: ['Poppins','sans-serif'],
       },
       backgroundImage:{
-        'batiment': "url('src/assets/images/BackgroundBatiment.png')"
+        'batiment': "url('src/assets/images/BackgroundBatiment.png')",
+        'contact': "url('src/assets/images/bgcontact.png')"
       },
       colors: {
         gold: '#FFBF00',

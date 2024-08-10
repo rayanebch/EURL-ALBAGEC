@@ -22,7 +22,7 @@ const Page2 = () => {
   };
 
   return (
-    <div className='page bg-white text-black min-h-screen flex justify-center items-center gap-64 max-lg:gap-5 max-lg:flex-col max-lg:items-center relative'>
+    <div id='Apropos' className='page bg-white text-black min-h-screen flex justify-center items-center gap-64 max-lg:gap-5 max-lg:flex-col max-lg:items-center relative'>
       <button 
         onClick={prevImage} 
         className='absolute left-16 text-3xl text-bluebg max-lg:left-2'>

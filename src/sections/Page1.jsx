@@ -3,7 +3,7 @@ import Button from '../components/Button.jsx'
 
 const Page1 = () => {
   return (
-    <div className="page m-0 w-full min-h-screen bg-batiment bg-cover backdrop-brightness-0 flex justify-center items-start pt-72 gap-72 max-lg:pt-48 max-lg:flex-col max-lg:items-center">
+    <div id='accueil' className="page m-0 w-full min-h-screen bg-batiment bg-cover backdrop-brightness-0 flex justify-center items-start pt-72 gap-72 max-lg:pt-48 max-lg:flex-col max-lg:items-center">
       <div className='max-lg:hidden'>
         <p className='text-8xl text-white font-semibold'>EURL <br /></p>
         <p className='text-gold font-thin text-8xl mt-10'>ALBAGEC</p>
