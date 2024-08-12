@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import image1 from '../assets/images/image1.png';
 import image2 from '../assets/images/image2.jpg';
 import image3 from '../assets/images/image3.jpg';
@@ -9,12 +9,10 @@ const images = [image1, image2, image3, image4];
 const Page2 = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Function to go to the next image
   const nextImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
-  // Function to go to the previous image
   const prevImage = () => {
     setCurrentImageIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
@@ -22,7 +20,7 @@ const Page2 = () => {
   };
 
   return (
-    <div id='Apropos' className='page bg-white text-black min-h-screen flex justify-center items-center gap-64 max-lg:gap-5 max-lg:flex-col max-lg:items-center relative'>
+    <div id='Apropos' className='page bg-white text-black min-h-screen h-screen flex justify-center items-center gap-64 max-lg:gap-5 max-lg:flex-col max-lg:items-center relative'>
       <button 
         onClick={prevImage} 
         className='absolute left-16 text-3xl text-bluebg max-lg:left-2'>

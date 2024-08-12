@@ -1,7 +1,7 @@
 import { Nav } from "./components";
 import { Page1, Page2, Page3 } from "./sections"
 import Page4 from "./sections/Page4";
-
+import Page5 from "./sections/Page5";
 const App = () => (
   
   <main className="font-poppins">
