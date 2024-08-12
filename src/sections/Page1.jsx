@@ -43,7 +43,8 @@ const Page1 = () => {
 
       <div className={`flex flex-col items-center w-1/3 bg-bluebg bg-opacity-40 px-4 py-16 gap-10 max-lg:bg-transparent max-lg:w-3/4 max-lg:px-8 transition-transform duration-1000 ${isVisible ? 'animate-fadeInUp delay-500' : ''}`}>
         <p className="text-white text-xl">
-          La GMDI a été crée par Mr HAMMA Allatif en tant que personne moral, un ingénieur d’état en génie mécanique, ayant bénéficié d’une bonne expérience professionnelle durant plusieurs années au sein des sociétés STULZ, ALGER ENGINS, ATLAS COPCO et DIDAS, ainsi que dans d’autres entreprises.
+        Bienvenue chez ALBAGEC Votre Partenaire en Construction
+        Chez ALBAGEC, nous croyons que chaque projet de construction devrait être une réalisation exceptionnelle. Forts de notre expertise, de notre dévouement et de notre engagement envers l'excellence, nous nous efforçons de faire de chaque idée une réalité tangible.
         </p>
         <Button text='contactez-nous' color="white" bordercolor="white" bgcolor="bluebg"></Button>
       </div>
